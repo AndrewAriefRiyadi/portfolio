@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .bg-soft { background-color: #E4E0E1; }
+    .bg-sand { background-color: #D6C0B3; }
+    .bg-clay { background-color: #AB886D; }
+    .bg-wood { background-color: #493628; }
+
+    .text-soft { color: #E4E0E1; }
+    .text-sand { color: #D6C0B3; }
+    .text-clay { color: #AB886D; }
+    .text-wood { color: #493628; }
+}
+
