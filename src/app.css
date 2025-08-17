@@ -1,4 +1,7 @@
 @import "tailwindcss";
+@plugin "daisyui"{
+    themes:retro
+}
 
 @layer utilities {
     .bg-soft { background-color: #E4E0E1; }
