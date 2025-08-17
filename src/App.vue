@@ -3,7 +3,6 @@ import Educations from './educations.vue';
 import Experiences from './Experiences.vue';
 import Projects from './Projects.vue';
 import Tech_stack from './tech_stack.vue';
-
 </script>
 
 <template>

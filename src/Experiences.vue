@@ -9,7 +9,7 @@ var detail_1 = "Interned as a Backend Developer, built a centralized Laravel-bas
 var heading1_2 = 'Fullstack Web Development Intern'
 var heading2_2 = 'University of Balikpapan | July - December 2024'
 var link_2 = 'https://uniba-bpn.ac.id/'
-var detail_2 = "Developed a Laravel and Blade-based web app for postgraduate admissions with online registration,document upload, notifications, and admin dashboard. Designed the database, optimized user flow,and conducted testing with the academic team, including technical documentation and user guides."
+var detail_2 = "Developed a Laravel and Blade-based web app for postgraduate admissions with online registration,document upload, notifications, and admin dashboard";
 
 </script>
 
