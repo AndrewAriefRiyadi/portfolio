@@ -1,4 +1,5 @@
 <script setup>
+import Contacts from './Contacts.vue';
 import Educations from './educations.vue';
 import Experiences from './Experiences.vue';
 import Projects from './Projects.vue';
@@ -11,12 +12,18 @@ import Tech_stack from './tech_stack.vue';
       <p class=" text-2xl">Hey, I'm <span class=" text-primary">Andrew Arief Riyadi</span></p>
       <p class=" text-md">people call me <span class=" text-primary ">andru / endru / andrew</span></p>
       <p class=" text-sm text-primary">Full-Stack Developer & Game Developer</p>
-      <a href="#" class=" py-1 px-8 rounded bg-wood text-white w-fit block  shadow-xl/30 shadow-orange-950 hover:bg-orange-50 hover:text-black hover:shadow-orange-200 transition">CV</a>
+      <a href="#"
+        class=" py-1 px-8 rounded bg-wood text-white w-fit block  shadow-xl/30 shadow-orange-950 hover:bg-orange-50 hover:text-black hover:shadow-orange-200 transition">CV</a>
     </div>
     <Tech_stack></Tech_stack>
     <Educations></Educations>
     <Experiences></Experiences>
     <Projects></Projects>
+    <Contacts></Contacts>
   </div>
+  <footer class="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+      <aside>
+        <p>Copyright © 2025 - All right reserved by Andrew Arief Riyadi</p>
+      </aside>
+    </footer>
 </template>
-

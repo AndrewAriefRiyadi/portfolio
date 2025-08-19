@@ -10,8 +10,7 @@ import Card_project from './card_project.vue';
         <p class="text-3xl tracking-[50%] font-bold mb-4 text-accent">
             PROJECTS
         </p>
-
-        <div class="grid grid-cols-1 md:grid-cols-2  justify-center  w-fit gap-2 ">
+        <div class="grid grid-cols-2 md:grid-cols-3  justify-center  w-fit gap-2 ">
             <Card_project image="/PMB_Pasca.png"
                 category="Web" title="PMB Pascasarjana"
                 description="Website registrasi mahasiswa baru Universitas Balikpapan"
@@ -28,6 +27,14 @@ import Card_project from './card_project.vue';
                 category="Web" title="E-Commerce"
                 description="Aplikasi E-Commerce"
                 link="https://github.com/AndrewAriefRiyadi/pabw"/>
+            <Card_project image="/NaghPunk.png"
+                category="Game" title="NaghPunk"
+                description="Turn Based Game with Cyberpunk Theme"
+                link="https://itsandru.itch.io/naghpunk-demo"/>
+            <Card_project image="/WLGT.png"
+                category="Game" title="Wizards Legacy: Grand Tower"
+                description="Retro game inspired by fix it felix."
+                link="https://itsandru.itch.io/wizard-legacy-grand-tower"/>
         </div>
     </div>
 </template>
