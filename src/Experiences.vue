@@ -21,7 +21,7 @@ var detail_2 = "Developed a Laravel and Blade-based web app for postgraduate adm
 
         <div class="flex w-full h-full gap-2 ">
             <div class=" w-0.5 bg-orange-900"></div>
-            <div class=" flex flex-col gap-2 w-full self-center ">
+            <div class=" grid grid-cols-1 md:grid-cols-2 gap-2 w-full self-center ">
                 <Card :heading1="heading1_1" :heading2="heading2_1" :link="link_1" :detail="detail_1"></Card>
                 <Card :heading1="heading1_2" :heading2="heading2_2" :link="link_2" :detail="detail_2"></Card>
             </div>

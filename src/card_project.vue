@@ -14,7 +14,7 @@ const props = defineProps({
         <figure class="px-5 pt-5">
             <img :src="image" :alt="category" class="rounded w-64 h-40 object-cover shadow-lg" />
         </figure>
-        <div class="card-body items-center text-center">
+        <div class="card-body items-center text-center shadow-xl">
             <h2 class="card-title">{{ title }}</h2>
             <p>{{ description }}</p>
             <div class="card-actions">
