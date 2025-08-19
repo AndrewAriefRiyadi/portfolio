@@ -15,7 +15,7 @@ import Tech_stack from './tech_stack.vue';
     <a href="#contacts">Contact</a>
   </nav>
 
-  <div class=" mx-8 my-16 font-mono flex flex-col gap-10">
+  <div class=" mx-8 my-16 md:mx-32 font-mono flex flex-col gap-10">
     <div class=" flex flex-col justify-center items-center text-center gap-2">
       <p class=" text-2xl">Hey, I'm <span class=" text-primary">Andrew Arief Riyadi</span></p>
       <p class=" text-md">people call me <span class=" text-primary ">andru / endru / andrew</span></p>
