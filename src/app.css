@@ -1,17 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Unbounded:wght@200..900&display=swap');
 @import "tailwindcss";
-@plugin "daisyui"{
-    themes:retro
+@plugin "daisyui" {
+    themes: all;
 }
 
-@layer utilities {
-    .bg-soft { background-color: #E4E0E1; }
-    .bg-sand { background-color: #D6C0B3; }
-    .bg-clay { background-color: #AB886D; }
-    .bg-wood { background-color: #493628; }
+@theme {
+    --font-azeret: "Azeret Mono", monospace;
+    --font-unbounded: "Unbounded", monospace;
+    --font-sans: "Azeret Mono", monospace;
+    --font-serif: "Azeret Mono", monospace;
+    --font-mono: "Azeret Mono", monospace;
 
-    .text-soft { color: #E4E0E1; }
-    .text-sand { color: #D6C0B3; }
-    .text-clay { color: #AB886D; }
-    .text-wood { color: #493628; }
+    --color-text: #FFFFFF;
 }
+
 

@@ -2,8 +2,8 @@
 </script>
 
 <template>
-    <div class="flex flex-col justify-center text-center">
-        <p class="text-3xl tracking-[50%] font-bold mb-4 text-accent">TECH STACK</p>
+    <div class="flex flex-col justify-center text-center gap-2">
+        <p class=" text-4xl font-unbounded mb-4 ">TECH STACK</p>
 
         <!-- Container auto scroll -->
         <div class="relative w-full overflow-hidden">
@@ -27,7 +27,6 @@
                     class="w-16" />
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
                     class="w-16" />
-                <img src="https://images.seeklogo.com/logo-png/35/2/flutter-logo-png_seeklogo-354671.png" class="w-16"/>
 
                 <!-- duplicate biar loop mulus -->
                 <img src="https://www.php.net/images/logos/new-php-logo.svg" class="block w-24" />
@@ -48,7 +47,6 @@
                     class="w-16" />
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"
                     class="w-16" />
-                <img src="https://images.seeklogo.com/logo-png/35/2/flutter-logo-png_seeklogo-354671.png" class="w-16"/>
 
             </div>
         </div>
