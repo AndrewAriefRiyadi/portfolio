@@ -25,7 +25,7 @@
             team. Let’s build something great together!
         </p>
         <div class=" flex gap-2 text-xs">
-            <a href="https://drive.google.com/file/d/1yjQN8hn0XkHYDk70JRGaubEsWyjDz1ec/view?usp=drive_link"
+            <a href="https://drive.google.com/file/d/1WiMQKhXXRUme79aGM_46PKewMbLYRK19/view?usp=drive_link"
                 target="_blank" data-tip="📄"
                 class=" tooltip tooltip-bottom sm:tooltip-left t py-1 px-8 rounded bg-wood text-black w-full block bg-white text-center transition hover:scale-105  ">View
                 CV</a>
