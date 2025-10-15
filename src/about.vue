@@ -4,10 +4,10 @@
 
 <template>
     <div class=" flex flex-col gap-2">
-        <div class="flex items-center gap-4 mb-6 ">
+        <div class="flex items-center gap-4 sm:gap-8 mb-6 ">
             <p class="text-2xl ">Hi! I'm Andrew, a developer based in Indonesia.</p>
             <div
-                class="rounded-full overflow-hidden ring-4 ring-white shadow-lg w-xl aspect-square transition hover:scale-120 hover:grayscale">
+                class="rounded-full overflow-hidden ring-4 ring-white shadow-lg w-xl sm:w-md aspect-square transition hover:scale-120  grayscale hover:grayscale-0">
                 <img src="/Photo2.jpg" alt="Andrew Arief" class="object-cover w-full h-full" />
             </div>
         </div>
@@ -27,10 +27,10 @@
         <div class=" flex gap-2 text-xs">
             <a href="https://drive.google.com/file/d/1yjQN8hn0XkHYDk70JRGaubEsWyjDz1ec/view?usp=drive_link"
                 target="_blank" data-tip="📄"
-                class=" tooltip tooltip-left t py-1 px-8 rounded bg-wood text-black w-full block bg-white text-center transition hover:scale-105  ">View
+                class=" tooltip tooltip-bottom sm:tooltip-left t py-1 px-8 rounded bg-wood text-black w-full block bg-white text-center transition hover:scale-105  ">View
                 CV</a>
             <a href="https://www.linkedin.com/in/andrew-arief-riyadi/" target="_blank" data-tip="😎"
-                class=" tooltip tooltip-right tooltip-info py-1 px-8 rounded bg-wood ring-1 w-full block  text-center transition hover:scale-105">View
+                class=" tooltip tooltip-bottom sm:tooltip-right tooltip-info py-1 px-8 rounded bg-wood ring-1 w-full block  text-center transition hover:scale-105">View
                 Linkedin</a>
         </div>
     </div>
