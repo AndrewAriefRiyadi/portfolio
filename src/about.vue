@@ -1,26 +1,43 @@
-<script>
+<script setup>
+import { onMounted } from 'vue'
+import { annotate, annotationGroup } from 'rough-notation'
 
+onMounted(() => {
+    const $ = (t) => document.querySelector(t)
+    const configUnderlineYellow = { type: 'underline', color: '#FFD54F', padding: 2 }
+
+    const a1 = annotate($('.web'), configUnderlineYellow)
+    const a2 = annotate($('.game'), configUnderlineYellow)
+    const a3 = annotate($('.multiline'), { type: 'highlight', color: '#052463', animationDuration: 1500, multiline: true, iterations: 1 })
+    const a4 = annotate($('.seeking'), { type: 'box', color: '#ed6464'})
+    const ag = annotationGroup([a1, a2, a3, a4])
+    ag.show()
+})
 </script>
 
 <template>
     <div class=" flex flex-col gap-2">
         <div class="flex items-center gap-4 sm:gap-8 mb-6 ">
-            <p class="text-2xl ">Hi! I'm Andrew, a developer based in Indonesia.</p>
+            <p class="text-2xl ">Hi! I'm <span class=" text-yellow-200 ">Andrew</span>, a developer based in <span
+                    class=" text-red-400 italic">Indonesia</span>.</p>
             <div
                 class="rounded-full overflow-hidden ring-4 ring-white shadow-lg w-xl sm:w-md aspect-square transition hover:scale-120  grayscale hover:grayscale-0">
                 <img src="/Photo2.jpg" alt="Andrew Arief" class="object-cover w-full h-full" />
             </div>
         </div>
-        <p class=" text-xs">
-            A fresh Informatics graduate from Institut Teknologi Kalimantan with a strong passion for web and game
-            development. I enjoy turning ideas into interactive and impactful digital experiences. I’m a fast learner,
+        <p class=" text-sm">
+            A fresh Informatics graduate from Institut Teknologi Kalimantan with a strong passion for <span class="web">
+                web </span>and<span class="game"> game </span> development. I enjoy turning ideas into
+            interactive and impactful digital experiences. I’m a fast learner,
             always eager to explore new technologies, and capable of working both independently and collaboratively.
             With a
-            strong sense of curiosity and dedication, I strive to write clean, efficient, and reliable code that brings
+            strong sense of curiosity and dedication, I strive to write <span class=" multiline">clean, efficient, and
+                reliable code</span> that brings
             ideas to life.
         </p>
-        <p class=" text-xs mb-8">
-            I’m currently seeking opportunities to grow as a developer and contribute to meaningful projects. If you’re
+        <p class=" text-sm mb-8">
+            I’m currently <span class=" seeking">seeking opportunities</span> to grow as a developer and contribute to
+            meaningful projects. If you’re
             looking for someone who’s motivated, adaptable, and ready to take on challenges, I’d love to be part of your
             team. Let’s build something great together!
         </p>
