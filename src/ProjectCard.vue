@@ -30,6 +30,9 @@ const tagColors = {
     Godot: { bg: '#478CBF', text: '#478CBF' },
     GDScript: { bg: '#355570', text: '#355570' },
 
+    // 🌟 Tambahan baru
+    Livewire: { bg: '#FB70A9', text: '#FB70A9' }, // pink lembut khas Livewire
+    'Laravel Echo': { bg: '#FF2D20', text: '#FF2D20' }, // merah Laravel Echo
 };
 
 // Fungsi untuk menentukan warna badge
@@ -60,19 +63,28 @@ const getTagStyle = (tag) => {
             <h2 class="card-title">{{ title }}</h2>
             <p>{{ description }}</p>
 
+            <!-- Tags -->
             <div class="card-actions justify-end flex flex-wrap gap-1">
                 <div v-for="(tag, index) in tags" :key="index" class="badge badge-outline transition hover:shadow-md"
                     :style="getTagStyle(tag)">
                     {{ tag }}
                 </div>
-
             </div>
 
-            <div v-if="link" class="text-end my-2">
-                <a :href="link" target="_blank" rel="noopener noreferrer"
-                    class="bg-black text-white p-2 rounded transition hover:bg-white hover:text-black hover:border">
-                    Visit
-                </a>
+            <!-- Link -->
+            <div class="text-end my-2">
+                <template v-if="link === 'Cooking'">
+                    <p class="inline-flex items-center gap-1 font-semibold text-orange-600 ">
+                        🍳 Cooking <span class="animate-pulse">🔥</span>
+                    </p>
+                </template>
+
+                <template v-else-if="link">
+                    <a :href="link" target="_blank" rel="noopener noreferrer"
+                        class="bg-black text-white p-2 rounded transition hover:bg-white hover:text-black hover:border">
+                        Visit
+                    </a>
+                </template>
             </div>
         </div>
     </div>
