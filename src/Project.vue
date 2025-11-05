@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard.vue';
         <p class=" font-unbounded text-4xl w-full text-left">PROJECTS</p>
         <!-- Cards -->
         <ProjectCard image="/ChatApp.png" title="ChatApp"
-            description="A realtime web chat app." :tags="['Laravel', 'Blade' , 'Livewire', 'MySQL', 'Tailwind','PHP', 'Laravel Echo']" link="Cooking" />
+            description="A realtime web chat app." :tags="['Laravel', 'Blade' , 'Livewire', 'MySQL', 'Tailwind','PHP', 'Laravel Echo']" link="https://github.com/AndrewAriefRiyadi/web-chat-app" />
         <ProjectCard image="/PMB_Pasca.png" title="Registration App"
             description="A web app for managing student registration." :tags="['Laravel', 'Blade', 'MySQL', 'Tailwind','PHP']" link="https://pmb-pasca.uniba-bpn.ac.id/" />
         <ProjectCard image="/Dormage.jpg" title="Kos Management App"
